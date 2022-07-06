@@ -5,5 +5,5 @@ x=1
 while [ $x -le 5 ]
 do
   echo "Welcome $x times"
-  read -t 5 -p "I am going to wait for 5 seconds only ..."
+  sleep 5
 done
